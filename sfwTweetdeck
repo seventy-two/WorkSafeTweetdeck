@@ -96,19 +96,14 @@
     .tweet-message .conversation-indicator {
         display: none;
     }
-    .tweet-dogear {
-        display: block;
-        width: 0.1px;
-        height: 100%;
-        background-image: none;
+
+    .is-favorite {
+        border-right: 3px solid #ff4b00;
     }
-    .is-favorite .tweet-dogear {
-        border-right: 3px solid #ff9b00;
-    }
-    .is-retweet .tweet-dogear {
+    .is-retweet{
         border-right: 3px solid #71b332;
     }
-    .is-retweet.is-favorite .tweet-dogear {
+    .is-retweet.is-favorite {
         border-right: 3px solid #48b4e6;
     }
     .tweet-body footer {
@@ -148,7 +143,7 @@
         display: none;
     }
     .cf {
-        margin-left: -55px;
+        margin-left: -50px;
     }
     .column-header {
         display: none;
