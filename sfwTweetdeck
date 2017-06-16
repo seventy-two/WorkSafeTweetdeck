@@ -1,0 +1,202 @@
+@-moz-document domain("tweetdeck.twitter.com") {
+    body {
+        font-family: ubuntu, verdana;
+    }
+    * {
+        border-radius: 0px !important;
+        color: #888;
+    }
+    .nbfc {
+        font-size: 12px;
+        font-style: normal;
+    }
+    .character-count {
+        font-size: 13px !important;
+    }
+    .character-count:disabled {
+        width: 22px !important;
+    }
+    .compose-text-container {
+        background: transparent !important;
+    }
+    .tweet,
+    .tweet-detail,
+    .compose-text {
+        font-size: 12px !important;
+    }
+    .column-title,
+    .compose-title-text {
+        font-size: 17px !important;
+    }
+        .column {
+        margin: 0px !important;
+    }
+    div.app-columns {
+        padding: 0px !important;
+    }
+    .txt-base-smallest {
+        font-size: 10px !important;
+    }
+    .is-condensed .app-content {
+        left: 0px !important;
+    }
+    .compose {
+        background-color: rgb(48, 50, 54) !important;
+    }
+    article .item-box {
+        padding: 2px 0px;
+    }
+    article .tweet {
+        padding-left: 8px;
+        padding-right: 14px;
+    }
+    article .tweet-avatar,
+    article .avatar.size24 {
+        width: 0px;
+        height: 0px;
+    }
+    article .tweet-footer {
+        margin-top: 0px;
+    }
+
+    .is-favorite .tweet-text a {
+        color: #ff9b00;
+    }
+    .is-favorite .tweet-text a:hover {
+        color: #cc7c00;
+    }
+    .is-retweet .tweet-text a {
+        color: #71b332;
+    }
+    .is-retweet .tweet-text a:hover {
+        color: #588b27;
+    }
+    .is-retweet.is-favorite .tweet-text a {
+        color: #48b4e6;
+    }
+    .is-retweet.is-favorite .tweet-text a:hover {
+        color: #1ea0dd;
+    }
+    .js-compose-message-recipient {
+        padding-top: 10px;
+    }
+    .column-content {
+        top: 40px;
+    }
+    .tweet-text {
+        margin-bottom: 8px;
+    }
+    .stream-item {
+        border-bottom: none;
+        min-height: 50px;
+    }
+    .stream-item:hover {
+        background-color: #1e1e1e;
+    }
+    .tweet-message .conversation-indicator {
+        display: none;
+    }
+    .tweet-dogear {
+        display: block;
+        width: 0.1px;
+        height: 100%;
+        background-image: none;
+    }
+    .is-favorite .tweet-dogear {
+        border-right: 3px solid #ff9b00;
+    }
+    .is-retweet .tweet-dogear {
+        border-right: 3px solid #71b332;
+    }
+    .is-retweet.is-favorite .tweet-dogear {
+        border-right: 3px solid #48b4e6;
+    }
+    .tweet-body footer {
+        -webkit-transform: scale(0.9);
+    }
+    .item-box {
+        padding: 6px;
+    }
+    .compose-header {
+        display: none;
+    }
+    .margin-v--14 {
+        display: none;
+    }
+    .margin-b--30 {
+        margin-right: 30px !important;
+    }
+    .btn-on-blue {
+        background: transparent;
+    }
+    .pin-v {
+        display: none;
+    }
+    .app-header {
+        display: none;
+    }
+    .pin-bottom {
+        display: none;
+    }
+    .compose {
+        margin-left: -50px;
+    }
+    .border-box {
+        display: none;
+    }
+    .compose-text-title {
+        display: none;
+    }
+    .cf {
+        margin-left: -55px;
+    }
+    .column-header {
+        display: none;
+    }
+    .column-panel {
+        top: -30px;
+    }
+    .margin-b--11 {
+        display: none;
+    }
+    .js-quote-tweet-holder {
+        display: none;
+    }
+    .icon-reply::before {
+        content: "\21a9"
+    }
+    .icon-retweet::before {
+        content: "\262d"
+    }
+    .icon-more::before {
+        content: "\22ef"
+    }
+    .icon-favorite::before,
+    .icon-heart-filled::before {
+        content: "\2615";
+    }
+    a[rel="viewDetails"] {
+        display: none;
+    }
+    .tweet-footer {
+        margin-top: 7px;
+    }
+    .tweet-actions {
+        float: right;
+        width: inherit !important;
+    }
+    .tweet-actions>* {
+        margin-left: 13px;
+        margin-right: 0 !important;
+    }
+    .stream-item {
+        min-height: 50px;
+        margin-top: 2px;
+    }
+    .sprite-verified-mini {
+        display: none;
+    }
+    .emoji {
+        display: none;
+    }
+}
