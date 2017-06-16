@@ -4,7 +4,7 @@
     }
     * {
         border-radius: 0px !important;
-        color: #888;
+        color: #CCC;
     }
     .nbfc {
         font-size: 12px;
@@ -193,5 +193,22 @@
     }
     .emoji {
         display: none;
+    }
+    .inline-reply {
+        background: transparent;
+    }
+    .inline-reply .compose-account {
+        display: none;
+    }
+    .inline-reply .pull-right {
+        margin-right: -50px;
+    }
+    .inline-reply .pull-right {
+        display: none;
+    }
+    .inline-reply .pull-left {
+        margin-left: 50px !important;
+        margin-bottom: 5px !important;
+        margin-top: -5px !important;
     }
 }
