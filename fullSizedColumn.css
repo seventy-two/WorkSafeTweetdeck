@@ -1,0 +1,249 @@
+@-moz-document domain("tweetdeck.twitter.com") {
+body {
+    font-family: 'Bad Script', cursive;
+}
+* {
+    border-radius: 0px !important;
+    color: #AAA;
+}
+.nbfc {
+    font-size: 20px;
+    font-style: normal;
+}
+.character-count {
+    font-size: 20px !important;
+}
+.character-count:disabled {
+    width: 22px !important;
+}
+.compose-text-container {
+    background: transparent !important;
+}
+.tweet,
+.tweet-detail,
+.compose-text {
+    font-size: 20px !important;
+}
+.column-title,
+.compose-title-text {
+    font-size: 32px !important;
+}
+.column {
+    margin: 0px !important;
+    width: 100% !important;
+}
+div.app-columns {
+    padding: 0px !important;
+}
+.txt-base-smallest {
+    font-size: 20px !important;
+}
+.is-condensed .app-content {
+    left: 0px !important;
+}
+.compose {
+    background-color: rgb(48, 50, 54) !important;
+}
+article .item-box {
+    padding: 2px 0px;
+}
+article .tweet {
+    padding-left: 8px;
+    padding-right: 14px;
+}
+article .tweet-avatar,
+article .avatar.size24 {
+    width: 30px;
+    height: 30px;
+}
+article .tweet-footer {
+    margin-top: 10px;
+}
+.is-favorite .tweet-text a {
+    color: #ff9b00;
+}
+.is-favorite .tweet-text a:hover {
+    color: #cc7c00;
+}
+.is-retweet .tweet-text a {
+    color: #71b332;
+}
+.is-retweet .tweet-text a:hover {
+    color: #588b27;
+}
+.is-retweet.is-favorite .tweet-text a {
+    color: #48b4e6;
+}
+.is-retweet.is-favorite .tweet-text a:hover {
+    color: #1ea0dd;
+}
+.js-compose-message-recipient {
+    padding-top: 10px;
+}
+.tweet-text {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.stream-item {
+    text-align: center;
+    border: 4px solid #111;
+    min-height: 50px;
+}
+.stream-item:hover {
+    background-color: #1e1e1e;
+}
+.tweet-message .conversation-indicator {
+    display: none;
+}
+.is-favorite {
+    border-right: 3px solid #ff4b00;
+    border-left: 3px solid #ff4b00;
+}
+.is-retweet {
+    border-right: 3px solid #71b332;
+    border-left: 3px solid #71b332;
+}
+.is-retweet.is-favorite {
+    border-right: 3px solid #48b4e6;
+    border-left: 3px solid #48b4e6;
+}
+.tweet-body footer {
+    -webkit-transform: scale(0.9);
+}
+.item-box {
+    padding: 16px;
+}
+.compose-header {
+    display: none;
+}
+.margin-v--14 {
+    display: none;
+}
+.margin-b--30 {
+    margin-right: 30px !important;
+}
+.btn-on-blue {
+    background: transparent;
+}
+.pin-v {
+    display: none;
+}
+.app-header {
+    display: none;
+}
+.pin-bottom {
+    display: none;
+}
+.compose {
+    margin-left: -50px;
+}
+.border-box {
+    display: none;
+}
+.compose-text-title {
+    display: none;
+}
+.cf {
+    margin-left: -50px;
+}
+.column-header {
+    display: none;
+}
+.column-panel {
+    top: -60px;
+}
+.margin-b--11 {
+    display: none;
+}
+.js-quote-tweet-holder {
+    display: none;
+}
+.icon-reply::before {
+    content: "\21a9"
+}
+.icon-retweet::before {
+    content: "\262d"
+}
+.icon-more::before {
+    content: "\22ef"
+}
+.icon-favorite::before,
+.icon-heart-filled::before {
+    content: "\2615";
+}
+a[rel="viewDetails"] {
+    display: none;
+}
+.tweet-footer {
+    margin-top: 7px;
+}
+.tweet-actions {
+    float: right;
+    width: inherit !important;
+}
+.tweet-actions > * {
+    margin-left: 13px;
+    margin-right: 0 !important;
+}
+.stream-item {
+    min-height: 50px;
+    margin-top: 2px;
+    color: #AAA;
+}
+.sprite-verified-mini {
+    display: none;
+}
+.emoji {
+    display: none;
+}
+.inline-reply {
+    background: transparent;
+}
+.inline-reply .compose-account {
+    display: none;
+}
+.inline-reply .pull-right {
+    margin-right: -50px;
+}
+.inline-reply .pull-right {
+    display: none;
+}
+.inline-reply .pull-left {
+    margin-left: 50px !important;
+    margin-bottom: 5px !important;
+    margin-top: -5px !important;
+}
+.account-link .fullname {
+    color: #FFF;
+}
+html.dark .icon-small-context {
+    display: none;
+}
+.btn-neutral-positive {
+    font-size: 10px;
+}
+.account-link .username {
+    display: none !important;
+}
+html.dark .avatar,
+html.dark .tweet-actions {
+    display: none;
+}
+html.dark .tweet {
+    padding-left: 0px;
+}
+html.dark .tweet-context,
+html.dark .tweet-img {
+    margin-left: 0px !important;
+}
+.sprite {
+    display: none !important;
+    margin: 0px !important;
+}
+.account-inline {
+    left: 8px;
+}
+.quoted-tweet {
+    font-size: 20px !important;
+}
+}
